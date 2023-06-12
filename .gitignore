@@ -1,0 +1,10 @@
+CATD/Input/*
+CATD/logs/*
+CATD/.snakemake/*
+GTEx_v8_bulk/*
+CATD/Output/*
+CATD/Benchmarks/
+*scratch*
+CATD/Consensus
+CATD/ConsensusPlot
+
