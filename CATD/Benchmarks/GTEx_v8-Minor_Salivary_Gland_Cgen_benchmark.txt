@@ -1,2 +1,0 @@
-s	h:m:s	max_rss	max_vms	max_uss	max_pss	io_in	io_out	mean_load	cpu_time
-1066.1357	0:17:46	1861.05	39146.54	1835.67	1836.48	200.35	17.19	39.62	411.68

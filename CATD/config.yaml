@@ -1,6 +1,8 @@
 #Input file name - to be implemented fully later on
 
 sampleNames: #Enter the part BEFORE file extension (ex. 'data.h5ad' should be entered as 'data')
+- GTEx_GTEx_v8-Skin_-_Sun_Exposed_Lower_leg
+- GTEx_GTEx_v8-Skin_-_Not_Sun_Exposed_Suprapubic
 - GTEx_v8-Adipose_-_Subcutaneous
 - GTEx_v8-Adipose_-_Visceral_Omentum
 - GTEx_v8-Adrenal_Gland

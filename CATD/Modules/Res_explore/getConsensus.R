@@ -113,10 +113,5 @@ color = data.frame(celltypes = colnames(prop),
                    color     =  sky.colors(ncol(prop)))
 
 png(filename = paste0("ConsensusPlot/",sampleName, "_consensus.png"), width = 500*3, height = 500*3, res=300)
-CiberBarFrazer(prop[order(-prop[top], -prop[second_top], -prop[third_top]),], color, paste(strsplit(sampleName, '_'), mean_corr_all)[[1]][3], 90)
+CiberBarFrazer(prop[order(-prop[top], -prop[second_top], -prop[third_top]),], color, paste(strsplit(sampleName, '_')[[1]][2], mean_corr_all), 90)
 dev.off()
-
-
-
-
-
