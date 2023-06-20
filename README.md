@@ -1,7 +1,7 @@
 # GTEx-v8-deconvolution
 
 
-* Steps to run the pipeline
+## Steps to run the pipeline
 
 - clone rep
 - install snakemake
