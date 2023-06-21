@@ -3,7 +3,7 @@
 #BSUB -o "pipOut_%J.log"
 #BSUB -J "runPip"
 
-condaDir="/nfs/production/irene/ma/users/nnolte/conda/etc/profile.d/conda.sh"
+condaDir="/.../conda/etc/profile.d/conda.sh" # please enter asolute path to conda profile
 
 source $condaDir
 conda activate snakemake
