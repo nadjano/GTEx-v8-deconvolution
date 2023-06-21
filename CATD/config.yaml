@@ -1,74 +1,7 @@
 #Input file name - to be implemented fully later on
 
 sampleNames: #Enter the part BEFORE file extension (ex. 'data.h5ad' should be entered as 'data')
-# - GTEx_v5-Adipose_-_Subcutaneous
-# - GTEx_v5-Adipose_-_Visceral_Omentum
-# - GTEx_v5-Muscle_-_Skeletal
-# - GTEx_v8-Adipose_-_Subcutaneous
-# - GTEx_v8-Adipose_-_Visceral_Omentum
-# - GTEx_v8-Muscle_-_Skeletal
-# - GTEx_GTEx_v8-Skin_-_Sun_Exposed_Lower_leg
-# - GTEx_GTEx_v5-Skin_-_Sun_Exposed_Lower_leg
-# - GTEx_GTEx_v8-Skin_-_Not_Sun_Exposed_Suprapubic
-# - GTEx_GTEx_v5-Skin_-_Not_Sun_Exposed_Suprapubic
-- GTEx_Wiedemann_v5-Skin_-_Not_Sun_Exposed_Suprapubic
-- GTEx_Wiedemann_v8-Skin_-_Sun_Exposed_Lower_leg
-- GTEx_Wiedemann_v5-Skin_-_Sun_Exposed_Lower_leg
-- GTEx_Wiedemann_v8-Skin_-_Not_Sun_Exposed_Suprapubic
-# - GTEx_v8-Adipose_-_Subcutaneous
-# - GTEx_v8-Adipose_-_Visceral_Omentum
-# - GTEx_v8-Adrenal_Gland
-# - GTEx_v8-Artery_-_Aorta
-# - GTEx_v8-Artery_-_Coronary
-# - GTEx_v8-Artery_-_Tibial
-# - GTEx_v8-Bladder
-# - GTEx_v8-Brain_-_Amygdala
-# - GTEx_v8-Brain_-_Anterior_cingulate_cortex_BA24
-# - GTEx_v8-Brain_-_Caudate_basal_ganglia
-# - GTEx_v8-Brain_-_Cerebellar_Hemisphere
-# - GTEx_v8-Brain_-_Cerebellum
-# - GTEx_v8-Brain_-_Cortex
-# - GTEx_v8-Brain_-_Frontal_Cortex_BA9
-# - GTEx_v8-Brain_-_Hippocampus
-# - GTEx_v8-Brain_-_Hypothalamus
-# - GTEx_v8-Brain_-_Nucleus_accumbens_basal_ganglia
-# - GTEx_v8-Brain_-_Putamen_basal_ganglia
-# - GTEx_v8-Brain_-_Spinal_cord_cervical_c-1
-# - GTEx_v8-Brain_-_Substantia_nigra
-# - GTEx_v8-Breast_-_Mammary_Tissue
-# - GTEx_v8-Cells_-_Cultured_fibroblasts
-# - GTEx_v8-Cells_-_EBV-transformed_lymphocytes
-# - GTEx_v8-Cervix_-_Ectocervix
-# - GTEx_v8-Cervix_-_Endocervix
-# - GTEx_v8-Colon_-_Sigmoid
-# - GTEx_v8-Colon_-_Transverse
-# - GTEx_v8-Esophagus_-_Gastroesophageal_Junction
-# - GTEx_v8-Esophagus_-_Mucosa
-# - GTEx_v8-Esophagus_-_Muscularis
-# - GTEx_v8-Fallopian_Tube
-# - GTEx_v8-Heart_-_Atrial_Appendage
-# - GTEx_v8-Heart_-_Left_Ventricle
-# - GTEx_v8-Kidney_-_Cortex
-# - GTEx_v8-Kidney_-_Medulla
-# - GTEx_v8-Liver
-# - GTEx_v8-Lung
-# - GTEx_v8-Minor_Salivary_Gland
-# - GTEx_v8-Muscle_-_Skeletal
-# - GTEx_v8-Nerve_-_Tibial
-# - GTEx_v8-Ovary
-# - GTEx_v8-Pancreas
-# - GTEx_v8-Pituitary
-# - GTEx_v8-Prostate
-# - GTEx_v8-Skin_-_Not_Sun_Exposed_Suprapubic
-# - GTEx_v8-Skin_-_Sun_Exposed_Lower_leg
-# - GTEx_v8-Small_Intestine_-_Terminal_Ileum
-# - GTEx_v8-Spleen
-# - GTEx_v8-Stomach
-# - GTEx_v8-Testis
-# - GTEx_v8-Thyroid
-# - GTEx_v8-Uterus
-# - GTEx_v8-Vagina
-# - GTEx_v8-Whole_Blood
+- skin
 
 seededRun: 0 #Use if you want this run of the pipeline to be reproducible (0-1)
 realBulk: 0  #Use if you are going to test with real data with known proportions (0-1)
