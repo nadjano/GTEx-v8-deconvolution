@@ -23,7 +23,7 @@ CiberBarFrazer <- function(ciber, colors, main0, legy){
             ylab = "Fraction clusters", 
             main = main0, 
             space=0, 
-            cex.main = 2)
+            cex.main = 1)
 
     text(nsamples * .05, 90, paste("n = ", nsamples, sep = ""), pos = 4, cex = 1)
 
