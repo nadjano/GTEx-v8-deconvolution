@@ -1,7 +1,7 @@
 #Input file name - to be implemented fully later on
 
 sampleNames: #Enter the part BEFORE file extension (ex. 'data.h5ad' should be entered as 'data')
-- skin
+- GTEx_v8-Small_Intestine_-_Terminal_Ileum
 
 seededRun: 0 #Use if you want this run of the pipeline to be reproducible (0-1)
 realBulk: 0  #Use if you are going to test with real data with known proportions (0-1)
